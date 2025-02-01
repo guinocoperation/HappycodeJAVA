@@ -4,11 +4,219 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <script src="/js/index.js"></script>
+    <header>
+        <img src="/images/celulas.webp" alt="Logo" id="logo">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./cuidados.html">Cuidados</a>
+            </li>
+            <li>Link2</li>
+            <li>Link3</li>
+        </ul>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="../images/cancro.jpg" alt="Slide 1"></div>
+                <div class="slide"><img src="../images/fogo.jpg" alt="Slide 2"></div>
+                <div class="slide"><img src="../images/dores.jpg" alt="Slide 3"></div>
+            </div>
+            <div class="controls">
+                <div id="prevBtn"><i class="fa-solid fa-chevron-left"></i></div>
+                <div id="nextBtn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+        </div>
+        <h1>CAUSAS DE MORTE</h1>
+        <p>Aqui temos uma lista das mortes por causa deste ano</p>
+        <table class="table">
+            <caption>
+                TABELA
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Causa</th>
+                    <th scope="col">Número de mortes</th>
+                </tr>
+            </thead>
+            <tbody class="tableBody">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row">mortes por doença arterial coronariana</th>
+                    <th scope="row">481897</th>
+                    <td class="averageScore"></td>
+                </tr>
+            </tfoot>
+            <tr>
+                <th scope="row">mortes por tubercolose</th>
+                <th scope="row">62279</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por diabetes mellitus</th>
+                <th scope="row">47583</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro</th>
+                <th scope="row">34451</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por catarata</th>
+                <th scope="row">28733</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por neoplasia maligna</th>
+                <th scope="row">22594</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por esclerose múltipla</th>
+                <th scope="row">16592</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por pneumonia</th>
+                <th scope="row">14589</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por infarto de miocardio</th>
+                <th scope="row">12397</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro de pulmão</th>
+                <th scope="row">11368</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por acidente vascular cerebral</th>
+                <th scope="row">10555</th>
+            </tr>
+
+            <tr>
+                <th scope="row">mortes por câncro de colon e reto</th>
+                <th scope="row">9336</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por diabetes tipo 2</th>
+                <th scope="row">8673</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por anemia</th>
+                <th scope="row">8573</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro de ovário</th>
+                <th scope="row">8365</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro de prostate</th>
+                <th scope="row">8000</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro de ureter</th>
+                <th scope="row">7890</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro da mama</th>
+                <th scope="row">7789</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do rim</th>
+                <th scope="row">7678</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do pâncreas</th>
+                <th scope="row">7564</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do intestino</th>
+                <th scope="row">7453</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do colo do útero</th>
+                <th scope="row">7342</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do lábio e cauda oral</th>
+                <th scope="row">7231</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do olho</th>
+                <th scope="row">7120</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do cérebro</th>
+                <th scope="row">7019</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do corpo do fígado</th>
+                <th scope="row">6908</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do esôfago</th>
+                <th scope="row">6897</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do pulmão</th>
+                <th scope="row">6786</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema nervoso central</th>
+                <th scope="row">6675</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema digestivo</th>
+                <th scope="row">6564</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema respiratório</th>
+                <th scope="row">6453</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema circulatório</th>
+                <th scope="row">6342</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema endócrino</th>
+                <th scope="row">6231</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema genitourinário</th>
+                <th scope="row">6120</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema hematopoético e oncoproliferativo</th>
+                <th scope="row">6019</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema imunológico</th>
+                <th scope="row">5908</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por câncro do sistema nervoso</th>
+                <th scope="row">5897</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes causadas por incêndios</th>
+                <th scope="row">5125</th>
+            </tr>
+            <tr>
+                <th scope="row">mortes por suicidio</th>
+                <th scope="row">3790</th>
+            </tr>
+        <tr>
+            <th scope="row">mortes por acidentes de automóvel</th>
+            <th scope="row">1350000</th>
+        </tr>
+
+
+        </table>
+
+    </main>
+    <script src="../js/index5.js"></script>
+    <script src="../js/index4.js"></script>
 </body>
 
 </html>

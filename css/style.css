@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+header #logo {
+    width: 10%;
+    height: auto;
+}
+
+header ul {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 35px 0px;
+}
+
+header .navbar {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header ul li {
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.slider {
+    width: 100%;
+    height: 30m;
+    overflow: hidden;
+    position: relative;
+    z-index: -5;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#nextBtn {
+    position: absolute;
+
+}
+
+main {
+    margin: 80px auto;
+}
+
+main h1 {
+    width: 100%;
+    text-align: center;
+}
+
+main p {
+    width: 60%;
+    margin: 50px auto;
+}
+
+main .table {
+    width: 60%;
+    margin: auto;
+    border: 2px solid rgb(140, 140, 140);
+}
+
+main .table th,
+main .table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+main .table .students,
+main .table .score {
+    background-color: lavender;
+}
+
+.cuidados {
+    width: 80%;
+    margin: 150px auto;
+}
+
+.cuidados h2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cuidados p {
+    text-align: justify;
+    margin-bottom: 100px;
+}
+
+.cuidados HR {
+    width: 60%;
+}
+
+.cuidadosSlider {
+    height: 20em;
+    margin: 20px auto;
+}

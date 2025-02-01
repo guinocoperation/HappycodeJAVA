@@ -1,5 +1,5 @@
 let idade = parseInt(prompt("Qual é a tua idade?"));
-let DiaDaSemana = parseInt(prompt("Esclhe um numero para um dia da semana"));
+let DiaDaSemana = parseInt(prompt("Escolhe um número para um dia da semana"));
 
 
 if (idade < 12 && idade >= 0)
@@ -49,3 +49,7 @@ while (counter < 100) {
     console.log(counter);
     counter += 2;
 }
+
+let NumeroMisterioso = 0;
+
+
